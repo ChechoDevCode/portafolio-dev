@@ -1,0 +1,33 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+
+const EXPERIENCE = [
+    {
+        date: '2022',
+        title: 'Diplomado Desarrollo de Software',
+        description: 'Diplomado de Diseño de Software realizado en la Universidad Católica de Colombia.',
+    },
+    {
+        date: '2024',
+        title: 'Profesional Ingenieria de Sistemas y Computación',
+        description: 'Profesional en Ingeniería de Sistemas y Computación de la Universidad Católica de Colombia.',
+    },
+    {
+        date: '2022',
+        title: 'Platzi',
+        description: 'Certificaciones en Platzi sobre Desarrollo Web.',
+        link: '#',
+    },
+]
+---
+
+<ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+    {
+        EXPERIENCE.map(experiencie => (
+            <li class="mb-10 ms-4">
+                <ExperienceItem {... experiencie } /> 
+            </li>
+        ))
+    }
+</ol>
+
