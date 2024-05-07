@@ -7,6 +7,7 @@ import MailIcon from '../components/icons/Mail.astro';
 import SocialMedia from '../components/icons/SocialMedia.astro';
 import Experience from '../components/Experience.astro';
 import SectionContainer from '../components/SectionContainer.astro';
+import Briefcase from '../components/icons/Briefcase.astro';
 ---
 
 <Layout 
@@ -14,7 +15,7 @@ title="Portafolio Web Sergio González - Desarrollador y Programador Web"
 description="Portafolio Web Desarrollador y Programador con proyectos que demuestran conocimientos claves en el mundo del desarrollo web."
 >
 	<main>
-		<SectionContainer>
+		<SectionContainer class="py-44 pb-24">
 			<img class="rounded-full size-12 mb-4" src="https://i.ibb.co/X2bmhY9/Sergio.jpg" alt="mi foto">
 			<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">Hola, soy Sergio <a href="https://www.linkedin.com/in/sergio-gonzalez-dev" target="_blank" rel="noopener" class="justify-center items-center"><Badge>Disponible para trabajar</Badge></a></h1>
 			<h2 class="text-2xl opacity-80 text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima ipsum exercitationem provident libero. Possimus voluptatibus facilis totam vitae modi dolorem distinctio nesciunt inventore sunt quos, harum quaerat quidem explicabo!</h2>
@@ -36,6 +37,10 @@ description="Portafolio Web Desarrollador y Programador con proyectos que demues
 		</SectionContainer>
 
 		<SectionContainer>
+			<h2 class="text-2xl fot-semibold mb-6 flex gap-x-3 items-center">
+				<Briefcase class="size-7" />
+				Experiencia laboral
+			</h2>
 			<Experience />
 		</SectionContainer>
 	</main>
