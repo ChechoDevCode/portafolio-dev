@@ -3,17 +3,17 @@ import ExperienceItem from "./ExperienceItem.astro"
 
 const EXPERIENCE = [
     {
-        date: '2022',
-        title: 'Diplomado Desarrollo de Software',
-        description: 'Diplomado de Diseño de Software realizado en la Universidad Católica de Colombia.',
-    },
-    {
-        date: '2024',
+        date: 'Diciembre 2024',
         title: 'Profesional Ingenieria de Sistemas y Computación',
         description: 'Profesional en Ingeniería de Sistemas y Computación de la Universidad Católica de Colombia.',
     },
     {
-        date: '2022',
+        date: 'Junio 2022',
+        title: 'Diplomado Desarrollo de Software',
+        description: 'Diplomado de Diseño de Software realizado en la Universidad Católica de Colombia.',
+    },
+    {
+        date: 'Diciembre 2021',
         title: 'Platzi',
         description: 'Certificaciones en Platzi sobre Desarrollo Web.',
         link: '#',
@@ -21,7 +21,7 @@ const EXPERIENCE = [
 ]
 ---
 
-<ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+<ol class="relative border-s border-gray-200 ml-3">                  
     {
         EXPERIENCE.map(experiencie => (
             <li class="mb-10 ms-4">
@@ -30,4 +30,3 @@ const EXPERIENCE = [
         ))
     }
 </ol>
-
