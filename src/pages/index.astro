@@ -14,23 +14,33 @@ import Briefcase from '../components/icons/Briefcase.astro';
 title="Portafolio Web Sergio González - Desarrollador y Programador Web"
 description="Portafolio Web Desarrollador y Programador con proyectos que demuestran conocimientos claves en el mundo del desarrollo web."
 >
-	<main>
+	<main class="px-4">
 		<SectionContainer class="py-44 pb-24">
-			<img class="rounded-full size-12 mb-4" src="https://i.ibb.co/X2bmhY9/Sergio.jpg" alt="mi foto">
-			<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">Hola, soy Sergio <a href="https://www.linkedin.com/in/sergio-gonzalez-dev" target="_blank" rel="noopener" class="justify-center items-center"><Badge>Disponible para trabajar</Badge></a></h1>
-			<h2 class="text-2xl opacity-80 text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima ipsum exercitationem provident libero. Possimus voluptatibus facilis totam vitae modi dolorem distinctio nesciunt inventore sunt quos, harum quaerat quidem explicabo!</h2>
+			<img 
+			class="rounded-full size-12 mb-4" 
+			src="https://i.ibb.co/X2bmhY9/Sergio.jpg" alt="mi foto">
+			<h1 
+			class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
+				Hola, soy Sergio
+			<a 
+			href="https://www.linkedin.com/in/sergio-gonzalez-dev" 
+			target="_blank" 
+			rel="noopener" 
+			class="justify-center items-center">
+			<Badge>Disponible para trabajar</Badge></a></h1>
+			<h2 class="text-xl lg:text-2xl text-wrap max-w-[700px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima ipsum exercitationem provident libero. Possimus voluptatibus facilis totam vitae modi dolorem distinctio nesciunt inventore sunt quos, harum quaerat quidem explicabo!</h2>
 
-			<nav class="flex gap-x-2 mt-8">
+			<nav class="flex gap-4 mt-8 flex-wrap">
 				<SocialMedia href="https://www.linkedin.com/in/sergio-gonzalez-dev">
-					<LinkedInIcon class="size-6"/>
+					<LinkedInIcon class="size-4 md:size-6"/>
 					LinkedIn
 				</SocialMedia>
 				<SocialMedia href="https://github.com/ChechoDevCode">
-					<GitHubIcon class="size-6"/>
+					<GitHubIcon class="size-4 md:size-6"/>
 					GitHub
 				</SocialMedia>
 				<SocialMedia href="mailto:sergio_gonzalez_17@hotmail.com">
-					<MailIcon class="size-6"/>
+					<MailIcon class="size-4 md:size-6"/>
 					sergio_gonzalez_17@hotmail.com
 				</SocialMedia>
 			</nav>
